@@ -1,0 +1,34 @@
+.details-card{
+    display: flex;
+    margin: 30px;
+    background-color: #624F82;
+}
+
+.details-content{
+    margin: 15px;
+    padding: 0px;
+    height: auto;
+    background-color: #3F3B6C;
+    color: white;
+}
+
+.posters{
+    height: 500px;
+}
+
+.img{
+    margin: 15px;
+    height: auto;
+    background-color: #624F82;
+    box-shadow: none;
+}
+
+.details-content-div{
+    width: 100%;
+}
+
+#trailer{
+    width: 1280px;
+    height: 720px;
+    border: 0px;
+}

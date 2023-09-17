@@ -1,0 +1,46 @@
+<div class="details-card-container">
+    <mat-card class="details-card">
+        <mat-card-content class="details-card">
+            <mat-card class="img">
+                <img mat-card-image class="posters" src="https://image.tmdb.org/t/p/w500/{{tvsDetails.poster_path}}"  alt="">
+            </mat-card>
+            <!-- Title -->
+            <div class="details-content-div">
+                <mat-card class="details-content">
+                    <mat-card-content class="details-content">
+                        <h1>{{tvsDetails.original_name}}</h1>
+                    </mat-card-content>
+                </mat-card>
+                <!-- overview -->
+                <mat-card class="details-content">
+                    <mat-card-content class="details-content">
+                        Overview: {{tvsDetails.overview}}
+                    </mat-card-content>
+                </mat-card>
+                <!-- original_language -->
+                <mat-card class="details-content">
+                    <mat-card-content class="details-content">
+                        Language: {{tvsDetails.original_language}}
+                    </mat-card-content>
+                </mat-card>
+                <!-- Release Date -->
+                <mat-card class="details-content">
+                    <mat-card-content class="details-content">
+                        Release date: {{tvsDetails.first_air_date}}
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="details-content">
+                    <mat-card-content class="details-content">
+                        Rating: {{tvsDetails.vote_average}}
+                        from {{tvsDetails.vote_count}} vote
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="details-content">
+                    <mat-card-content class="details-content">
+                        <iframe id="trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

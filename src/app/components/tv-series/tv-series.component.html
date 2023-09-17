@@ -1,0 +1,11 @@
+<div class="tvseries-card-container">
+    <mat-card class="tvseries-card" *ngFor="let tvserie of tvseries">
+        <mat-card-content class="tvseries-card-content">
+            <img (click)="navigateToSeries(tvserie.id)" mat-card-image class="posters" src="https://image.tmdb.org/t/p/w500/{{tvserie.poster_path}}"  alt="">
+            {{tvserie.name}}
+            <br>
+            <span class="span-content">Rating: {{tvserie.vote_average}} </span>
+            <span class="span-content">from {{tvserie.vote_count}} votes</span>
+        </mat-card-content>
+    </mat-card>
+</div>

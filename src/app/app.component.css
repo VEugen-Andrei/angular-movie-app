@@ -1,0 +1,28 @@
+.nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 20px;
+    background-color: #3F3B6C;
+}
+
+.menu-button{
+    margin: 5px;
+}
+
+h1{
+    font-family: 'Lugrasimo', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
